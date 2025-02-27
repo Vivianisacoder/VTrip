@@ -67,3 +67,45 @@
   border-radius: 30px;
   box-shadow: none;
 }
+
+/*--------features-----*/
+
+.features {
+  padding: 100px 0;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.feature-img img {
+  width: 300px;
+}
+
+.price {
+  width: 50px;
+  height: 50px;
+  background: dodgerblue;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+  position: absolute;
+  left: 20px;
+  bottom: -50px;
+}
+
+.feature-img {
+  position: relative;
+}
+
+.rating {
+  padding: 1px;
+  float: right;
+  background: #fff;
+  bottom: -1px;
+  right: 0;
+  position: absolute;
+}
